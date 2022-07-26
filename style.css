@@ -37,7 +37,7 @@ h3{
 }
 .main{
     border: 5px solid red;
-    height: 400px;
+    height: auto;
 }
 /* .footer{ */
     /* border: 5px solid yellow; */
@@ -50,21 +50,36 @@ h3{
 /* } */
 footer{
     border: 5px solid yellow;
-    height: 400px;
+    height: 500px;
     background-color: rgb(66, 64, 64);
     color: white;
+    
 }
+
 #tablehead1{
+    display: flex;
     font-weight: 600;
     font-size: 20px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     padding: 50px;
     padding-left: 60px;
     text-align: center;
+    border: 2px solid red;
+    display: inline-block;
+    /* justify-content: flex-end; */
+    
+}
+.flexcontainer{
+    display: flex;
+    /* justify-content: space-around; */
+    border: 2px solid blue;
+    
 }
 .tabledata{
+    display: flex;
     color: aquamarine;
     text-align: center ;
+    border: 2px solid pink;
 }
 /* #tablehead2{
     font-weight: 600;
@@ -73,6 +88,13 @@ footer{
     padding: 50px;
     padding-left: 60px;
 } */
+.img1{
+    height: 250px;
+}
+.images{
+    display: flex;
+    justify-content: space-evenly;
+}
 
 
 
